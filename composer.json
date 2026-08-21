@@ -1,0 +1,28 @@
+{
+    "name": "classnyisait-labs/bitrix24-event-chats",
+    "description": "Free self-hosted Bitrix24 module: a dedicated Event chats section in the messenger",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://classnyisait.ru/modules/",
+    "support": {
+        "issues": "https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/issues",
+        "source": "https://github.com/ClassnyiSait-Labs/bitrix24-event-chats"
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Classnyisait\\NotifyChat\\": "classnyisait.notifychat/lib/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

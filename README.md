@@ -2,6 +2,9 @@
 
 [Русская версия](README.ru.md) · [MIT License](LICENSE)
 
+[![CI](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/actions/workflows/ci.yml/badge.svg)](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 Free and open-source module for **self-hosted Bitrix24** that gives calendar-event chats their own
 section in the messenger — the same way task chats already have one.
 
@@ -45,6 +48,19 @@ classnyisait.notifychat/
 ├── lib/EventHandler.php, lib/EventRegistrar.php  event wiring
 └── test/                PHP tests
 ```
+
+## Development
+
+```bash
+composer install
+composer test          # 31 PHPUnit tests
+```
+
+Tests cover the pure logic that runs without a Bitrix kernel. Anything touching the
+database, the basket or the messenger UI needs a live portal and is verified manually —
+see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+CI runs the linter and the test suite on PHP 8.1, 8.2 and 8.3 for every push and pull request.
 
 ## Contributing
 
