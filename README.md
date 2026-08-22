@@ -2,7 +2,7 @@
 
 [Русская версия](README.ru.md) · [MIT License](LICENSE)
 
-[![CI](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/actions/workflows/ci.yml/badge.svg)](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/actions/workflows/ci.yml/badge.svg)](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/actions/workflows/ci.yml) [![Latest release](https://img.shields.io/github/v/release/ClassnyiSait-Labs/bitrix24-event-chats?label=release)](https://github.com/ClassnyiSait-Labs/bitrix24-event-chats/releases/latest) [![PHP](https://img.shields.io/badge/PHP-8.1%2B-777bb4)](https://www.php.net/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
 Free and open-source module for **self-hosted Bitrix24** that gives calendar-event chats their own
