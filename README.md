@@ -33,7 +33,7 @@ This module adds it.
 2. **Marketplace → Installed solutions** → *Event chats* → *Install*.
 3. Reload the messenger — the "Event chats" section appears in the list.
 
-Marketplace listing: <https://classnyisait.ru/modules/>
+Marketplace listing: <https://marketplace.1c-bitrix.ru/solutions/classnyisait.notifychat/>
 
 ## Screenshots
 
