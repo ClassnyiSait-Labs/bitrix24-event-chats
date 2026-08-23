@@ -8,6 +8,13 @@
 Free and open-source module for **self-hosted Bitrix24** that gives calendar-event chats their own
 section in the messenger — the same way task chats already have one.
 
+
+## Видео
+
+[Чаты событий в Битрикс24: группы, проекты и календарь](https://www.youtube.com/watch?v=PQh_Jz96LsA)
+
+Канал: https://www.youtube.com/@ClassnyiSaitLabs
+
 ![Event chats section](docs/screenshots/01-overview.png)
 
 ## Why
